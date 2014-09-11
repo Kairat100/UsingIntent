@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-136c183602f11c25c6df46831926dfa1527ce750.jar"
+        jar="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-4e98459fb04ba8b8986ee6b78ee4c70272a7d582.jar"
+        jar="G:\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\pre-dexed\debug\classes-f8fb49b836206d13877ed950f26af71defad77d3.jar"
+        jar="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\pre-dexed\debug\classes-82cd5fe1c703faa015273eaf4760c6b95d04e41e.jar"
+        jar="G:\AndroidWorkspace\UsingIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>
