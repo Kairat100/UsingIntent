@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 
 public class MianActivity extends ActionBarActivity {
+
+    int request_Code = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +21,19 @@ public class MianActivity extends ActionBarActivity {
 
     public void onClick(View v)
     {
-        startActivity(new Intent("net.learn2develop.SecondActivity"));
+        //startActivity(new Intent("net.learn2develop.SecondActivity"));
+        startActivityForResult(new Intent("net.learn2develop.SecondActivity"), request_Code);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        if(requestCode == request_Code)
+        {
+            if(resultCode == RESULT_OK)
+            {
+                Toast.makeText(this, cd.getData().toString(), Toast.LENGTH_SHORT).show();
+            }
+        }
+
     }
 }
